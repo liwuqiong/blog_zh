@@ -1,8 +1,8 @@
 ---
-title: Weibo
+title: 快语
 layout: default
-description: "「我干了什么 究竟拿了时间换了什么」"
-header-img: "img/bg-little-universe.jpg"
+description: "「💫日常的闪念 也会有值得回味的发现」"
+header-img: "img/home-bg-backup2.jpg"
 ---
 
 <!--
@@ -18,10 +18,10 @@ https://github.com/kitian616/jekyll-TeXt-theme
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			<!-- Tags (as filter) -->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button" data-encode="Meta" title="Meta" rel="count_of_Meta">
-					Meta
+				<a class="tag-button" data-encode="weibo" title="weibo" rel="count_of_weibo">
+					weibo
 					<!-- 这里筛选只显示特定标签 -->
-					<sup>{{site.tags.Meta.size}}</sup>
+					<sup>{{site.tags.weibo.size}}</sup>
 				</a>
 
 				<!-- {% capture tags %}
@@ -56,7 +56,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{%- endfor -%}
 
 				{% comment %} group by year {% endcomment %}
-				{%- if _tags contains 'Meta' -%}
+				{%- if _tags contains 'weibo' -%}
 				<!-- 这里要求只显示这个标签下的文章列表 -->
 				{%- assign _currentdate = _article.date | date: '%Y' -%}
 				{%- if _currentdate != _date -%}
