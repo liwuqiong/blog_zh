@@ -4,8 +4,24 @@
       "title"    : "《JavaScript 二十年》推荐语",
       "subtitle" : "",
       "tags"     : "Web, JavaScript",
-      "url"      : "/2021/04/10/js-20yrs-preface/",
+      "url"      : "/blog_zh/2021/04/10/js-20yrs-preface/",
       "date"     : "2021-04-10 00:00:00 +0800"
+    } ,
+  
+    {
+      "title"    : "作为一个前端，看不懂@黄玄 的几乎每一个回答，只有我自己吗？",
+      "subtitle" : "Taking this chance to reflect on myself",
+      "tags"     : "知乎, Meta",
+      "url"      : "/blog_zh/2020/07/05/reflection-2020/",
+      "date"     : "2020-07-05 00:00:00 +0800"
+    } ,
+  
+    {
+      "title"    : "程序员中的梦想家",
+      "subtitle" : "Dreamers among programmers",
+      "tags"     : "Facebook, Meta",
+      "url"      : "/blog_zh/2018/06/30/dreamer/",
+      "date"     : "2018-06-30 00:00:00 +0800"
     } 
   
 ]

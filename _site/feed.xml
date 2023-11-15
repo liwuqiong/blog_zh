@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>liwuqiong</title>
+    <title>忽南忽北Wq</title>
     <description>这里是 @liwuqiong 的中文个人博客，与你一起发现更大的世界 | 要做一个双语写作者</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Nov 2023 01:03:57 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Nov 2023 01:03:57 +0800</lastBuildDate>
+    <link>http://localhost:4000/blog_zh/</link>
+    <atom:link href="http://localhost:4000/blog_zh/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 15 Nov 2023 11:50:34 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2023 11:50:34 +0800</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -18,14 +18,147 @@
 &lt;p&gt;JavaScript 常常被戏称为一门偶然成功的玩具语言。而实际上，它出身名门，更是成长在聚光灯之下。纵观历史，有资格被标准化的编程语言甚少，它因此成为多方角力的战场，却也有幸同时得到业界与学界先驱的亲传。时至今日，我们甚至难言是它背负了太多妥协，还是这些妥协才成就了它呢。以史为鉴，或许你会有自己的答案。&lt;/p&gt;
 
 &lt;p&gt;— 黄玄，Facebook 软件工程师（编程语言、JS 引擎、前端基础设施）、中文前端社区活跃成员。&lt;/p&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xxx&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yyy&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zzz&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aaa&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Sat, 10 Apr 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2021/04/10/js-20yrs-preface/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/04/10/js-20yrs-preface/</guid>
+        <link>http://localhost:4000/blog_zh/2021/04/10/js-20yrs-preface/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog_zh/2021/04/10/js-20yrs-preface/</guid>
         
         <category>Web</category>
         
         <category>JavaScript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>作为一个前端，看不懂@黄玄 的几乎每一个回答，只有我自己吗？</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;这篇文章转载自&lt;a href=&quot;https://www.zhihu.com/question/403735935/answer/1321904076&quot;&gt;我在知乎上的回答&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;我也看不懂&quot;&gt;我也看不懂。&lt;/h2&gt;
+
+&lt;p&gt;对于任何一个我有一定了解的领域，我都知道一大堆我看不懂的东西。反而是对于那些我一点都不了解的，我甚至都说不出来我不懂什么。&lt;/p&gt;
+
+&lt;p&gt;有的时候我会觉得，在我眼里还只有前端的时候，我还更自信更爱分享一点。可能因为那时候我能感知到的「边界」就只有 2^4 = 16 这么大，还觉得自己满打满算已经懂了 4 吧。打个比喻的话就是觉得自己已经能干活了，但还想再了解下 JS 引擎、浏览器、框架等的工作原理，或许还想再多学点后端和移动端当个全栈？总之 4/16 已经是「全集」的 25% 了，觉得自己还挺棒棒哒。&lt;/p&gt;
+
+&lt;p&gt;结果等我的「知识」真成长到 16 时，才意识到「欧，原来计算机科学还有这么多东西」？而且每个领域水都深得很，教科书里引论文，论文里再引更多论文，像一棵棵树般不断分形出去…认知的「边界」也相应的长到了 2^16 = 65536。自己懂的东西只占 0.02%，一下觉得自己真是什么都不是了。我把这个瞎掰称之为「认知的指数成长理论」。&lt;/p&gt;
+
+&lt;p&gt;而我能做的就是学会与这样的认知和平共处。Prof. Matt Might 画的那篇 The illustrated guide to a Ph.D&lt;a href=&quot;#ref_1&quot;&gt;[1]&lt;/a&gt;（&lt;a href=&quot;https://zhuanlan.zhihu.com/p/19789670&quot;&gt;「博士是什么」&lt;/a&gt;) 让我意识到个体在「人类所有知识」面前的渺小，而「成长」的过程，大概就是在那个愈发巨大的「看不懂集」里，挑选出你还愿意继续去「探索」的那些「子集」吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picx.zhimg.com/50/v2-9557bd0507ca70f7afd075730f31a2e3_720w.jpg?source=1940ef5c&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://picx.zhimg.com/80/v2-9557bd0507ca70f7afd075730f31a2e3_720w.jpg?source=1940ef5c&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;「认知的指数成长理论」&lt;/p&gt;
+
+&lt;h2 id=&quot;作为一个前端&quot;&gt;作为一个前端。&lt;/h2&gt;
+
+&lt;p&gt;在相当长的一段时间里，「前端」既是我的兴趣也是我的职业，那时好像不需要有区别 —— 从早早在阿里实习，到还没毕业就在微影带团队，小中大的公司都待过，活动也参加了不少。其实如果就这样专注于「作为一个前端」，应该现在也还混得不赖吧。&lt;/p&gt;
+
+&lt;p&gt;可是偏偏你就发现，那个「看不懂集」的边缘总在发着光 —— 群友形容有一部人的动力在于「理解驱动」，我想了想，那或许是我「半路出家」积累的太多疑惑需要解答；又或许，我可能只是想要「旅游」吧 —— 在高三从重点班理科生转了艺术，在阿里从交互又转了前端，可我还有好奇的理论、又或者还没尝试过系统编程，又或者是下一个有趣的产品形态……想去探索下一件事的欲望总是逐渐盖过了舒适感，你听说了那个学科，你听说了那个文明，你听说了风暴中心，可是你不去看，你就永远不知道那里是什么样。&lt;/p&gt;
+
+&lt;p&gt;最近多次被问及「前端团队的方向是什么？」才突然意识到自己有一段时间不这样思考了 —— 这个问题天生就带着市场环境强调&lt;a href=&quot;https://www.zhihu.com/search?q=%E7%B2%BE%E7%BB%86%E5%8C%96%E5%88%86%E5%B7%A5&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1321904076%7D&quot;&gt;精细化分工&lt;/a&gt;的倾向，而相反地，有时我惊讶于 Facebook 内部「疏于管理」得就像个&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1321904076%7D&quot;&gt;开源软件&lt;/a&gt;的菜市场。前端作为一个子领域当然需要特定的技术设施与人员的专长，但或许你我的职业/兴趣发展、公司的组织架构、软件的开发方式，不一定都非得绑上。&lt;/p&gt;
+
+&lt;p&gt;我想要追求的状态不只是能继续做我已经擅长的事情，我还想去探索那些我想要尝试但可能还不太擅长的事情，最后再顺便把钱赚着 —— 就美其名曰「技术自由」吧。所以你说，我是前端吗，我不是前端吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-6caf0e597779eb690dffe71c0c610f54_720w.jpg?source=1940ef5c&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pic4.zhimg.com/80/v2-6caf0e597779eb690dffe71c0c610f54_720w.jpg?source=1940ef5c&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;「专注」和「职业」又何必要是一个双射呢？&lt;/p&gt;
+
+&lt;h2 id=&quot;回答&quot;&gt;回答。&lt;/h2&gt;
+
+&lt;p&gt;答题不是我的工作，我不做培训也不靠这个赚钱，不愿花时间琢磨如何哗众取宠，&lt;br /&gt;
+只是有时恰好有新的感悟可以分享，有时恰好有有趣的题目能引发我的思考；&lt;/p&gt;
+
+&lt;p&gt;答题只是博客之外另一个用写作自我沉淀的地方罢了，难免会有点自我，&lt;br /&gt;
+但反正也只是写给同路人看的，也为了发现与认识更多的同路人；&lt;/p&gt;
+
+&lt;p&gt;我不愿意「只」为了答题而写字，也还是希望言之有物，&lt;br /&gt;
+这道题如此 meta，是回答给谁呢，又或是回答给我呢？&lt;/p&gt;
+
+&lt;h2 id=&quot;结语&quot;&gt;结语。&lt;/h2&gt;
+
+&lt;p&gt;有的时候需要赚钱，有的时候需要理想。&lt;br /&gt;
+你是更想做一位黑客与画家，还是想站在 Hilbert 第十问题的肩上。&lt;/p&gt;
+
+&lt;p&gt;Gödel 说太难，人生又怎会比 Peano 简单。&lt;br /&gt;
+面对的 &lt;a href=&quot;https://www.zhihu.com/search?q=tradeoff&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1321904076%7D&quot;&gt;tradeoff&lt;/a&gt; 太多，才只能去近似一个想要的模样。&lt;/p&gt;
+
+&lt;p&gt;说得都是走心的话，走脑还是多看书吧。&lt;br /&gt;
+如果能给在读的你带来一点不同思考，那便是对一个碳基生物所能给予的最高嘉奖了。&lt;/p&gt;
+
+&lt;p&gt;黄玄，
+二〇二〇年七月五日，
+于美国&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%9C%A3%E5%A1%94%E5%85%8B%E6%8B%89%E6%8B%89&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1321904076%7D&quot;&gt;圣塔克拉拉&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;「有一部分朋友知道，我现在在探索的事情跟前端关系还挺近的啦。&lt;/em&gt;
+&lt;em&gt;希望我也能突破我自我驱动的局限性，多做一些更落地的事情吧！共勉！」&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The illustrated guide to a Ph.D &lt;a href=&quot;http://matt.might.net/articles/phd-school-in-pictures/&quot;&gt;http://matt.might.net/articles/phd-school-in-pictures/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 05 Jul 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog_zh/2020/07/05/reflection-2020/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog_zh/2020/07/05/reflection-2020/</guid>
+        
+        <category>知乎</category>
+        
+        <category>Meta</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>程序员中的梦想家</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;本文首发于我的知乎专栏 &lt;a href=&quot;https://zhuanlan.zhihu.com/p/38722466&quot;&gt;The Little Programmer&lt;/a&gt;，转载请保留链接 ;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;有一类程序员是 visionary 型的，为了实现一些超前的 idea，绕过某些技术的限制，他们写的 code 晦涩高深得只有他们自己能懂，做出来的 tool 看上去很美好结果处处是坑出了 bug 根本没法查，但正是这类人不断创造出新的东西，在洗礼之后成为一个个 big thing。&lt;/p&gt;
+
+&lt;p&gt;我每周都要被 infra 的坑 block 得无法工作几次搞得非常沮丧，后来我发现这个锅除了要扔给 FB 外，还有一大半要扔给我周围这群 visionary 的同事们，我工作直接需要接触到的区区五六个人，发起/创造了 Infer, React, Reason, ReasonReact, BuckleScript…&lt;/p&gt;
+
+&lt;p&gt;所以这大概就是见证/参与这些 idea 成长的代价吧，也意识到这些东西不是在刚开始就像后来大家接受流行时那么美好的。React 发布 5 周年生日时回放 Jordan/Tom 2013 年第一次对外发布 React/JSX 的视频。我问 Jordan 说你后来怎么没再去分享了。他说你不知道我那天讲完下来被所有听众指着批评。React 第一次在内部使用是 2011 年在 news feed，然后是 2012 年 instagram (pete hunt)，所以这个时间其实很长很长。&lt;/p&gt;
+
+&lt;p&gt;很多人（包括我）都会经常觉得 XYZ 新事物跟老东西比太新、太不成熟、体验太不好、想要解决的问题太多、解决方案太 overkill、然后就没有然后了，但其实说不定你在看的这个就是 next big thing 呢。这些梦想家们 vision 里的 big picture 太大了，有的人可能在半个 picture 出来的时候就可以看出来了，有的人则可能要等到整个 picture 都快填满了才看得出来。&lt;/p&gt;
+
+&lt;p&gt;如果不是因为 Ads/Messenger 的坑深 React/Reason/Flux 也就不会在这里诞生了，&lt;/p&gt;
+
+&lt;p&gt;如果不是因为 Facebook 的坑深 GraphQL/Infer/Hack/Flow/Buck 也就不会在这里诞生了。&lt;/p&gt;
+
+&lt;p&gt;正是有一群开垦者不怕坑深才使得各种 idea 成为了大家手上好用的 tool 啊。&lt;/p&gt;
+
+&lt;p&gt;梦想家程序员们的工作价值于实干主义的程序员，总是很容易在过程中被低估、忽视，或是得不到尊重。而又在流行之后被神化，仿佛是那个人早已洞察一切一样。其实梦想家的工作，也是一点点累加，一点点迭代起来的。他们也需要伯乐和追随者的支持和帮助。&lt;/p&gt;
+
+&lt;p&gt;Chenglou 这个人总是在巨兴奋与巨沮丧之间切换，这段时间下来，我开始能感受这种情绪的来源了。&lt;/p&gt;
+
+&lt;p&gt;他总是用一句话来总结他回答我的吐槽、抱怨、疑问、惊叹，我就用这句话来结尾好了：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Welcome to the producer side!”&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Jun 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog_zh/2018/06/30/dreamer/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog_zh/2018/06/30/dreamer/</guid>
+        
+        <category>Facebook</category>
+        
+        <category>Meta</category>
         
         
       </item>

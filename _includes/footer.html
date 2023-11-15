@@ -91,8 +91,8 @@
 </script>
 {% endif %}
 
-
-{% if page.title == 'Archive' %}
+<!-- 注意这里控制标签与tagcloud的调用，他这里写死了page的title得是archive，可以更改，以新增多个特定标签筛选的页面，这个功能在文章内容很多时，或者有特定类型的文章需要单独呈现列出时（如微博），非常有用 -->
+{% if page.title == 'Archive' or 'Weibo' %}
 <!-- jquery.tagcloud.js -->
 <script>
     async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}', function () {

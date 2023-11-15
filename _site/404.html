@@ -25,19 +25,19 @@
     <title>404 - 无穷的中文写作 | Wuqiong Writing</title>
 
     <!-- Web App Manifest -->
-    <link rel="manifest" href="/pwa/manifest.json">
+    <link rel="manifest" href="/blog_zh/pwa/manifest.json">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/blog_zh/img/favicon.ico">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/404.html">
+    <link rel="canonical" href="http://localhost:4000/blog_zh/404.html">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href=" /css/bootstrap.min.css">
+    <link rel="stylesheet" href="/blog_zh/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href=" /css/hux-blog.min.css">
+    <link rel="stylesheet" href="/blog_zh/css/hux-blog.min.css">
 
     <!-- Custom Fonts -->
     <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -78,7 +78,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">liwuqiong</a>
+                <a class="navbar-brand" href="/blog_zh/">忽南忽北Wq</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,20 +86,20 @@
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/blog_zh/">Home</a>
                         </li>
                         
                         
                         
                         
                         <li>
-                            <a href="/about/">About Me</a>
+                            <a href="/blog_zh/about/">About Me</a>
                         </li>
                         
                         
                         
                         <li>
-                            <a href="/archive/">Archive</a>
+                            <a href="/blog_zh/archive/">Archive</a>
                         </li>
                         
                         
@@ -109,6 +109,12 @@
                         
                         
                         
+                        
+                        
+                        
+                        <li>
+                            <a href="/blog_zh/weibo/">Weibo</a>
+                        </li>
                         
                         
                         <li class="search-icon">
@@ -202,7 +208,7 @@
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('/img/404-bg.jpg');
+        background-image: url('/blog_zh/img/404-bg.jpg');
         background: ;
     }
 
@@ -215,7 +221,7 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/404-bg.jpg')">
+<header class="intro-header" style="background-image: url('/blog_zh/img/404-bg.jpg')">
   <div class="header-mask"></div>
   <div class="container">
     <div class="row">
@@ -296,7 +302,7 @@
 </ul>
 
                 <p class="copyright text-muted">
-                    Copyright &copy; liwuqiong 2023
+                    Copyright &copy; 忽南忽北Wq 2023
                     <br>
                     <!-- Powered by <a href="http://huangxuan.me">Hux Blog</a> | -->
                     <!-- <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
@@ -310,22 +316,22 @@
 </footer>
 
 <!-- jQuery -->
-<script src="/js/jquery.min.js "></script>
+<script src="/blog_zh/js/jquery.min.js "></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
-<script src="/js/bootstrap.min.js "></script>
+<script src="/blog_zh/js/bootstrap.min.js "></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/js/hux-blog.min.js "></script>
+<script src="/blog_zh/js/hux-blog.min.js "></script>
 
 <!-- Simple Jekyll Search -->
-<script src="/js/simple-jekyll-search.min.js"></script>
+<script src="/blog_zh/js/simple-jekyll-search.min.js"></script>
 
 <!-- Service Worker -->
 
-<script src="/js/snackbar.js "></script>
-<script src="/js/sw-registration.js "></script>
+<script src="/blog_zh/js/snackbar.js "></script>
+<script src="/blog_zh/js/sw-registration.js "></script>
 
 
 <!-- async load function -->
@@ -363,6 +369,18 @@
 
 
 
+
+<!-- jquery.tagcloud.js -->
+<script>
+    async('/blog_zh/js/jquery.tagcloud.js', function () {
+        $.fn.tagcloud.defaults = {
+            //size: {start: 1, end: 1, unit: 'em'},
+            color: { start: '#bbbbee', end: '#2f93b4' },
+        };
+        $('#tag_cloud a').tagcloud();
+    })
+</script>
+<script src='/blog_zh/js/archive.js '></script>
 
 
 <!--fastClick.js -->
@@ -425,7 +443,7 @@
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
      * Fork by Hux to support padding
      */
-    async("/js/jquery.nav.js", function () {
+    async("/blog_zh/js/jquery.nav.js", function () {
         $('.catalog-body').onePageNav({
             currentClass: "active",
             changeHash: !1,

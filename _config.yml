@@ -1,5 +1,5 @@
 # Site settings
-title: liwuqiong
+title: 忽南忽北Wq
 SEOTitle: 无穷的中文写作 | Wuqiong Writing
 header-img: img/home-bg.jpg
 email: liwuqiong@hotmail.com
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: liwuqiong
+# disqus_username: liwuqiong
 
 # Netease settings
 netease_comment: false
