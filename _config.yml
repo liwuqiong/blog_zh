@@ -68,7 +68,7 @@ netease_comment: false
 # Baidu Analytics
 # ba_track_id: [your track id]
 
-Google Analytics
+# Google Analytics
 ga_track_id: "G-N9076HRDQH" # Format: UA-xxxxxx-xx
 ga_domain: liwuqiong.com/blog_zh
 
