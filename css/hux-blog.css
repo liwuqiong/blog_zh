@@ -658,7 +658,8 @@ body {
      */
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  font-size: 16px;
+  font-size: 17px;
+  /* color: #404040; */
   color: #404040;
   overflow-x: hidden;
   text-rendering: auto;
@@ -666,7 +667,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 p {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 @media screen and (max-width: 768px) {
   p {
@@ -709,7 +710,7 @@ blockquote {
   color: gray;
   font-style: italic;
   font-size: 0.95em;
-  margin: 20px 0 20px;
+  margin: 10px 0 10px;
 }
 blockquote p {
   margin: 0;
@@ -774,7 +775,7 @@ samp {
   font-family: "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 .postlist-container {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .post-container a {
   color: #337ab7;
@@ -1216,23 +1217,25 @@ samp {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 16px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  /* color: white; */
+  color: rgb(0, 0, 0);
+  /* 这里修改链接的颜色，原来为白色，导致以白色为底的话，实际上就看不到了 */
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 18px;
   }
   .intro-header .post-heading .meta {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .intro-header .header-img-credit {
@@ -1255,7 +1258,8 @@ samp {
   }
 }
 .post-preview > a {
-  color: #404040;
+  /* color: #404040; */
+  color: #000000;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -1303,7 +1307,7 @@ samp {
   }
   .post-preview .post-meta {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     color: #878282;
     font-style: normal;
   }

@@ -1,9 +1,9 @@
 # Site settings
 title: 忽南忽北Wq
-SEOTitle: Wq Writing
+SEOTitle: 无穷的中文Blog | liwuqong
 header-img: img/home-bg.jpg
 email: liwuqiong@hotmail.com
-description: "这里是 @liwuqiong 的中文个人博客，与你一起发现更大的世界 | 要做一个双语写作者"
+description: "这里是 李无穷@liwuqiong 的个人中文博客，与你一起发现更大的世界 | 做一个双语写作者"
 # keyword: "无穷, 李无穷，liwuqiong, wuqiong, wuqiongli, 忽南忽北, @liwuqiong, 无穷的林语, 无穷的博客, Wuqiong Blog, 博客, 个人网站, 互联网, Web, 电商, 人工智能, 数据分析, Jekyll"
 url: "https://liwuqiong.com" # your host, for absolute URL
 baseurl: "/blog_zh" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -15,7 +15,7 @@ future: true
 RSS: false
 weibo_username: liwuqiong
 zhihu_username: liwuqiong
-github_username: liwuqiong
+# github_username: liwuqiong
 twitter_username: rucliwuqiong
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -23,7 +23,7 @@ twitter_username: rucliwuqiong
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-permalink: pretty
+permalink: /:title
 paginate: 10
 exclude:
   [
@@ -74,8 +74,8 @@ ga_domain: liwuqiong.com/blog_zh
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "成为一名双语写作者 <br> 文字穿越时间"
-sidebar-avatar: img/me.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "🚀Entrepreneur <br>📈Analyst <br>💻Developer <br>✍️Writer <br> 👨‍🔬Researcher <br>正在成为一名双语写作者 <br> 文字穿越时间"
+sidebar-avatar: "https://liwuqiong.com/blog_zh/img/me.jpg" # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags

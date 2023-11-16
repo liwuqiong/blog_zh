@@ -18,12 +18,13 @@ description: "「Hi there! 欢迎来到无穷(Wq)用中文写字✍🏻的角落
             {% if post.lang == 'en' %}
                 {{ post.content | strip_html | truncate:300 }}
             {% else %}
-                {{ post.content | strip_html | truncate:200 }}
+                {{ post.content | strip_html | truncate:140 }}
             {% endif %}
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%Y-%m-%d" }}
+        {{ post.date | date: "%Y年%-m月%-d日" }} • <a href="{{ site.baseurl }}/about">Li Wuqiong</a>
+        <!-- Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%Y-%m-%d" }} -->
     </p>
 </div>
 <hr>
