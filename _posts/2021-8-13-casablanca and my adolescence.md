@@ -2,10 +2,11 @@
 title: 卡萨布兰卡，我，与青春
 layout: post
 header-style: text
-tags: [life]
+tags: 
+- 随笔
 subtitle: 我心中的那个桃源，早已定格在了卡萨布兰卡
 ---
-![](../img/in-post/Pasted%20image%2020231116142658.png)
+![](assets/pic/Pasted%20image%2020231116142658.png)
 
 **1**
 
@@ -21,7 +22,7 @@ subtitle: 我心中的那个桃源，早已定格在了卡萨布兰卡
 
 卡萨布兰卡，一部拍摄于1942年的经典奥斯卡电影，代表着我青春的启蒙和对成长的不太成熟的感官认知。  
 
-![](../img/in-post/Pasted%20image%2020231116141032.png)
+![](assets/pic/Pasted%20image%2020231116141032.png)
 
 在十岁刚出头的年纪，从一张DVD光盘中听到了Casablanca的歌曲，看到了作为MTV的电影剪辑，一边沉浸在优美动情的旋律与略带沧桑的唱腔中，一边随着画面的切换猜测着可能是怎样的凄美故事情节，一边欣赏着Ilsa（英格丽褒曼）的盛世美颜...就这样反反复复，挥之不去。  
 
@@ -51,7 +52,7 @@ subtitle: 我心中的那个桃源，早已定格在了卡萨布兰卡
 
 以至于在操场无聊时曾畅想将来也要有一辆雪佛兰带着“Ilsa”在郊外兜风，只因有一句唱到“making magic at movies in my old Chevrolet”。
 
-![](../img/in-post/Pasted%20image%2020231116141934.png)
+![](assets/pic/Pasted%20image%2020231116141934.png)
 
 以至于上了大学第一次参加中英文配音大赛拉着一帮人毫不犹豫地以这部电影的经典对白台词为模仿对象。
 
