@@ -6,5 +6,4 @@ tags:
 date: {{date}}
 layout: post
 header-style: text
-published:
 ---
