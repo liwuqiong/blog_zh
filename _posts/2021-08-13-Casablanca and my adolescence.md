@@ -7,7 +7,7 @@ tags:
 subtitle: 我心中的那个桃源，早已定格在了卡萨布兰卡
 ---
 
-![](https://img.liwuqiong.com/202311/202311171630290.webp)
+![](https://img.liwuqiong.com/file/wq-images/202311/202311171630290.webp)
 
 **1**
 
