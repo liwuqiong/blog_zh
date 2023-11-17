@@ -4,7 +4,7 @@ layout: post
 tags: 
 - 随笔
 subtitle: 我心中的那个桃源，早已定格在了卡萨布兰卡
-header-img: "img/inpost/202311171630290.webp"
+header-img: "img/202311171630290.webp"
 header-mask: 0.3
 ---
 
