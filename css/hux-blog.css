@@ -1122,6 +1122,13 @@ samp {
   padding: 85px 0 20px;
   color: #404040;
 }
+
+/* 这一段是新加的，在无背景图的模式下，背景为白色，meta信息的链接避免为白色 */
+.intro-header.style-text .post-heading .meta a {
+  color: rgb(193, 14, 14);
+  /* font-weight: bold */
+}
+
 .intro-header.style-text .site-heading .subheading,
 .intro-header.style-text .post-heading .subheading,
 .intro-header.style-text .page-heading .subheading {
@@ -1223,8 +1230,11 @@ samp {
   font-size: 16px;
 }
 .intro-header .post-heading .meta a {
-  /* color: white; */
-  color: rgb(0, 0, 0);
+  color: white;
+  /* text-decoration:underline; */
+  /* font-weight: bold */
+  /* font-style:oblique; */
+  /* color: rgb(0, 0, 0); */
   /* 这里修改链接的颜色，原来为白色，导致以白色为底的话，实际上就看不到了 */
 }
 @media only screen and (min-width: 768px) {
