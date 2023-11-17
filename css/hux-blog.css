@@ -1280,10 +1280,10 @@ samp {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   color: #a3a3a3;
   font-size: 16px;
-  font-style: italic;
+  font-style: normal;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
@@ -1303,7 +1303,7 @@ samp {
   }
   .post-preview > a > .post-subtitle {
     font-size: 16px;
-    font-style: italic;
+    font-style: normal;
   }
   .post-preview .post-meta {
     font-size: 14px;
