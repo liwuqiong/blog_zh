@@ -20,7 +20,7 @@
 
 管理学视角，体现了渠道管理的要点；
 
-[2023-11-18-why sam altman fired suddenly](2023-11-18-why%20sam%20altman%20fired%20suddenly.md)
+[2023-11-18-why sam altman fired suddenly](2023Q4/2023-11-18-why%20sam%20altman%20fired%20suddenly.md)
 
 人生首先要对抗无聊
 ---
