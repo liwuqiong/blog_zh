@@ -1,11 +1,8 @@
 
-
-# collecting&notes
-
-The Great Gatsby
+# The Great Gatsby
 Francis Scott Fitzgerald
 
-Chapter 1
+## Chapter 1
 - younger and more vulnerable years
 - turning over in my mind ever since
 - Whenever you feel like criticizing anyone, just remember that all the people in this world haven't had the advantages that you've had.
