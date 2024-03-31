@@ -1,3 +1,13 @@
+---
+title: 【读书笔记】The Great Gatsby
+subtitle: 
+tags: 
+- 读书笔记
+- 文学
+date: 2024-03-21
+layout: post
+header-style: text
+---
 
 # The Great Gatsby
 Francis Scott Fitzgerald
