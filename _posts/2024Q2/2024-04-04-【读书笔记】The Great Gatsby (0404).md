@@ -1,5 +1,14 @@
-
-读书笔记
+---
+title: 【读书笔记】The Great Gatsby (0404)
+subtitle: 
+tags:
+  - 读书笔记
+  - 文学
+layout: post
+date: 2024-04-04
+header-img: ""
+header-mask: 0.3
+---
 
 # The Great Gatsby - Chapter 1
 
