@@ -1,11 +1,11 @@
 ---
-title: 【读书笔记】The Great Gatsby (0404)
+title: 【读书笔记】The Great Gatsby (0403)
 subtitle: 
 tags:
   - 读书笔记
   - 文学
 layout: post
-date: 2024-04-04
+date: 2024-04-03
 header-img: ""
 header-mask: 0.3
 ---
