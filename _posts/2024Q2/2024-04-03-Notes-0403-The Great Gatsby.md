@@ -1,5 +1,5 @@
 ---
-title: 【读书笔记】The Great Gatsby (0403)
+title: Notes-0403-The Great Gatsby
 subtitle: 
 tags:
   - 读书笔记
