@@ -1,13 +1,12 @@
 ---
-title: Notes-0403-The Great Gatsby
+title: 【读书笔记】The Great Gatsby (3)
 subtitle: 
 tags:
   - 读书笔记
   - 文学
 layout: post
 date: 2024-04-03
-header-img: ""
-header-mask: 0.3
+header-style: text
 ---
 
 # The Great Gatsby - Chapter 1

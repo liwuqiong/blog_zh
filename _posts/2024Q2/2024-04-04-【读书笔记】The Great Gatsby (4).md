@@ -1,5 +1,5 @@
 ---
-title: Notes-0404-The Great Gatsby
+title: 【读书笔记】The Great Gatsby (4)
 subtitle: 
 tags: 
 - 读书笔记

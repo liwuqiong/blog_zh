@@ -1,5 +1,5 @@
 ---
-title: 【读书笔记】The Great Gatsby
+title: 【读书笔记】The Great Gatsby (1)
 subtitle: 
 tags: 
 - 读书笔记
