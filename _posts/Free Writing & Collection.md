@@ -27,3 +27,11 @@
 饭桶戴老板爆文
 https://mp.weixin.qq.com/s?src=11&timestamp=1709522382&ver=5117&signature=CEet-NtcDUL*j55qF5pfSVWRaoSIugGLXvmoafvQQ0QkExYjufKTIZw*PwdwuSouGgyNSzP3s67IJHFZk*VuJjo1rfjhqOKIxXqcS8hoPQ30ZpAGe*HFksD7qfN56yi8&new=1
 
+
+
+---
+北方有强大的袁绍就不说了。还有挨得最近，刚拿到徐州的刘备，与之结盟的吕布。
+
+此外淮南袁术，至少纸面上的实力是可以问鼎天下的，基于此他也自信到最先称帝。别忘了荆州刘表，虽然无心扩张，但稳得一批足以自守。
+
+再有就是江东小霸王孙策。凭借父亲孙坚用生命换来的传国玉玺作为抵押借兵，孙策创业成功，短时间内席卷江东，开始崭露头角，为后来三国之一的东吴奠定了基础。
