@@ -1,3 +1,13 @@
+---
+title: 【读书笔记】新概念英语4-Lesson 5：Youth
+subtitle: 
+tags: 
+- 读书笔记
+- 英语
+date: 2024-05-05
+layout: post
+header-style: text
+---
 
 全文背诵。
 
