@@ -65,8 +65,8 @@ A writer makes order out of the anarchy of his heart; he submits himself to a mo
 
 > - make the pertinent observation
 > - the talent goes into the first draft, and the art into the drafts that follow. 
-> - has no resting place, no crowd or movement in which he may take comfort, no judgement from outside which can replace the judgement from within. 
-> - make order of the anarchy of his heart
-> - submits himself to a more ruthless discipline than any critic dreamed of
+> - has no resting place, no crowd or movement in which he may <u>take comfort</u>, no judgement from outside which can replace the judgement from within. 
+> - <u>make order of</u> the anarchy of his heart
+> - <u>submits himself to</u> a more ruthless discipline than any critic dreamed of
 > - flirt with fame
-> - take time off from living with himself, from the search for what world contains at its inmost point.
+> - <u>take time off from</u> living with himself, from the search for what his world contains at its inmost point.
