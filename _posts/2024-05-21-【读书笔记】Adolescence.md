@@ -21,12 +21,14 @@ They may even accuse them of disloyalty, or make some spiteful remark about the 
 > a loss of dignity and descent into childish behavior
 > on the part of
 > make them resolve that 
-> 
+> talk to ... about ...
 
 Before very long the parents will be complaining that the child is so secretive and never tells them anything, but they seldom realize that they have brought this on themselves.
 
 > before very long 
 > bring this on themselves.
+> tell ... anything/something.
+> seldom realize ... 
 
 Disillusionment with the parents, however good and adequate they may be both as parents and as individuals, is to some degree inevitable. Most children have such a high ideal of their parents, unless the parents themselves have been unsatisfactory, that it can hardly hope to stand up to a realistic evaluation. 
 
