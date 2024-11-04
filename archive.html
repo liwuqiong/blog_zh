@@ -1,88 +1,51 @@
 ---
-title: 归档
-layout: default
-description: "「😎做够酷的事情 😛写有趣的文字 😉探索世界的新知」"
-header-img: "img/home-bg-backup3.jpg"
-order: 2
+title: Archive
+permalink: /archive/
+layout: page
+excerpt: All posts
+comments: false
 ---
 
-<!--
-Credits: this page shamelessly borrowed a lot from:
-https://github.com/kitian616/jekyll-TeXt-theme
--->
-<!-- Page Header -->
-{% include intro-header.html type='page' short=true %}
-
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<!-- Tags (as filter) -->
-			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button--all" data-encode="">
-					Show All
-					<sup>{{site.posts.size}}</sup>
-				</a>
-
-				{% capture tags %}
-				{% for tag in site.tags %}
-				<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
-					data-encode="{{ tag[0] | strip | url_encode }}" class="tag-button" title="{{ tag[0] }}"
-					rel="{{ tag[1].size }}">
-					{{ tag[0] }}
-					<sup>{{tag[1].size}}</sup>
-				</a>__SEPERATOR__
-				{% endfor %}
-				{% endcapture %}
-				{{ tags | split:'__SEPERATOR__' | sort }}
-			</div>
-
-			<!-- Article List -->
-			<div class="mini-post-list js-result d-none">
-				{%- assign _sorted_list = site.posts -%}
-				{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
-				{%- assign _sorted_list = _sorted_list | reverse -%}
-
-
-				{%- for _article in _sorted_list -%}
-				{%- assign _tags = '' -%}
-				{%- for _tag in _article.tags -%}
-				{%- assign _tag_encode = _tag | strip | url_encode -%}
-				{%- if forloop.last -%}
-				{%- assign _tags = _tags | append: _tag_encode -%}
-				{%- else -%}
-				{%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
-				{%- endif -%}
-				{%- endfor -%}
-
-				{% comment %} group by year {% endcomment %}
-				{%- assign _currentdate = _article.date | date: '%Y' -%}
-				{%- if _currentdate != _date -%}
-				{%- unless forloop.first -%}</section>{%- endunless -%}
-				<section>
-					<span class="fa listing-seperator">
-						<span class="tag-text">{{ _currentdate }}</span>
-					</span>
-					{%- assign _date = _currentdate -%}
-					{%- endif -%}
-
-					<div class="post-preview item" data-tags="{{ _tags }}">
-						<a href="{{ _article.url | prepend: site.baseurl }}">
-							<h2 class="post-title">
-								{{ _article.title }}
-							</h2>
-							{% if _article.subtitle %}
-							<h3 class="post-subtitle">
-								{{ _article.subtitle }}
-							</h3>
-							{% endif %}
-						</a>
-						<hr>
-					</div>
-					{%- if forloop.last -%}
-				</section>{%- endif -%}
-				{% endfor %}
-			</div>
-		</div>
-	</div>
+<div class="search-article">
+  <label for="search-input" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+  </label>
+  <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
 </div>
+
+<ul id="search-results"></ul>
+
+<style>  
+  .post-item-content {  
+    display: flex; /* 使用Flexbox布局 */  
+    align-items: center; /* 垂直居中 */  
+  }  
+    
+  .post-date {  
+    margin-right: 1em; /* 使用em单位设置日期和标题之间的间距 */  
+    /* 如果您不希望日期加粗或斜体，可以移除这些样式 */  
+    /* font-weight: bold; */  
+    /* font-style: italic; */  
+  }  
+</style>  
+  
+{%- for post in site.posts -%}  
+  {%- capture current_year -%}{{ post.date | date: "%Y" }}{%- endcapture -%}  
+  {%- capture current_month -%}{{ post.date | date: "%B" }}{%- endcapture -%}  
+  {%- unless current_year == previous_year -%}  
+    <h1>{{ current_year }}</h1>  
+    {%- assign previous_year = current_year -%}  
+  {%- endunless -%}  
+  {%- unless current_month == previous_month -%}  
+    <h4>{{ current_month }}, {{ current_year }}</h4>  
+    {%- assign previous_month = current_month -%}  
+  {%- endunless -%}  
+  <article class="post-item">  
+    <div class="post-item-content">  
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>  
+      <h3 class="post-item-title">  
+        <a href="{{ post.url }}">{{ post.title | escape }}</a>  
+      </h3>  
+    </div>  
+  </article>  
+{%- endfor -%}

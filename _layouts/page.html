@@ -1,74 +1,43 @@
 ---
-layout: default
+layout: compress
 ---
 
-<!-- Page Header -->
-{% include intro-header.html type='page' %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-<!-- Main Content -->
-<div class="container">
-  <div class="row">
-    {% if site.sidebar == false %}
-    <!-- NO SIDEBAR -->
-    <!-- PostList Container -->
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
-      postlist-container">
-      {{ content }}
-    </div>
-    <!-- Sidebar Container -->
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
-      sidebar-container">
-      <!-- Featured Tags -->
-      {% include featured-tags.html %}
+{% include header.html %}
 
-      <!-- Friends Blog -->
-      {% include friends.html %}
-    </div>
-    {% else %}
+<body data-theme="{{ site.mode }}" class="notransition">
 
-    <!-- USE SIDEBAR -->
-    <!-- PostList Container -->
-    <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
-      col-xs-12 postlist-container">
-      {{ content }}
-    </div>
-    <!-- Sidebar Container -->
-    <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
-      col-xs-12 sidebar-container">
-      <!-- Featured Tags -->
-      {% include featured-tags.html %}
+  <script>
+    const body = document.body;
+    const data = body.getAttribute("data-theme");
 
-      <!-- Short About -->
-      {% include short-about.html %}
-
-      <!-- Friends Blog -->
-      {% include friends.html %}
-
-      <!-- Ads -->
-      {% include ads.html %}
-    </div>
-    {% endif %}
-  </div>
-</div>
-
-{% if site.page-mathjax %}
-<!-- Add support for Mathjax by Voleking-->
-<!-- If you want to see formulars well in post preview, Maybe you should add this.-->
-<!-- However, most of the time formulars may not appear in the post preview, you can delete it.-->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
+    const initTheme = (state) => {
+      if (state === "dark") {
+        body.setAttribute("data-theme", "dark");
+      } else if (state === "light") {
+        body.removeAttribute("data-theme");
+      } else {
+        localStorage.setItem("theme", data);
       }
-    },
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-{% endif %}
+    };
+ 
+    initTheme(localStorage.getItem("theme"));
+    
+    setTimeout(() => body.classList.remove("notransition"), 75);
+  </script>
+
+  {% include navbar.html %}
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+      {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
+    </main>
+    {% include footer.html %}
+  </div>
+</body>
+
+</html>

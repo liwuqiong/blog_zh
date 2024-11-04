@@ -1,102 +1,110 @@
 # Site settings
-title: 忽南忽北Wq
-SEOTitle: 无穷的中文Blog | Li Wuqiong
-header-img: img/home-bg.jpg
-email: liwuqiong@hotmail.com
-description: "这里是 李无穷@liwuqiong 的个人中文博客，与你一起发现更大的世界 | 做一个双语写作者"
-# keyword: "无穷, 李无穷，liwuqiong, wuqiong, wuqiongli, 忽南忽北, @liwuqiong, 无穷的林语, 无穷的博客, Wuqiong Blog, 博客, 个人网站, 互联网, Web, 电商, 人工智能, 数据分析, Jekyll"
-url: "https://liwuqiong.com" # your host, for absolute URL
-baseurl: "/blog_zh" # for example, '/blog' if your blog hosted on 'host/blog'
+title: Wq | Liwuqiong # site title
+description: >- # site description
+  He's writing in Bahasa about web technology and experience as a journal 
+  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: Asia/Shanghai # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
+mode: light # default theme "dark" | "light"
 
-# Publish posts or collection documents with a future date.
-future: true
+# Profile settings
+author:
+  name: Wq # author name
+  bio: >- # tell to the world
+    A record of journey of pursuing and building the path towards the real achievements and freedom. <a href="/about"> >> </a>
+  username: username # general username
+  github: github_username # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: your-email@email.com # email adress
+  avatar: /assets/img/avatar.jpeg # change with your own avatar
 
-# SNS settings
-RSS: false
-weibo_username: liwuqiong
-zhihu_username: liwuqiong
-# github_username: liwuqiong
-twitter_username: rucliwuqiong
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# URL settings
+url: "https://liwuqiong.com" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: /:title
-paginate: 10
-exclude:
-  [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
-  ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+# Collection setting
+collections:
+  posts:
+    output: true
 
 # Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+  syntax_highlighter: rouge
 
-# Disqus settings
-# disqus_username: liwuqiong
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: true
 
-# Netease settings
-netease_comment: false
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
 
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
+# Homepage limit posts
+number_of_posts: 7
 
-# Google Analytics
-ga_track_id: "G-N9076HRDQH" # Format: UA-xxxxxx-xx
-ga_domain: liwuqiong.com/blog_zh
+# Build settings
+# theme: klise
+sass:
+  style: compressed
 
-# Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "🚀Entrepreneur <br>📈Analyst <br>💻Developer <br>✍️Writer <br> 👨‍🔬Researcher <br>正在成为一名双语写作者 <br> 文字穿越时间"
-sidebar-avatar: "https://liwuqiong.com/blog_zh/img/me.jpg" # use absolute URL, seeing it's used in both `/` and `/about/`
+include:
+  - _redirects
+  - .htaccess
 
-# Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
 
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
+  - jekyll-toc
 
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
 
-# Friends
-# friends:
-#   [
-#     { title: "乱序（Midare）", href: "http://mida.re/" },
-#     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-#     { title: "Kun Qian", href: "http://kunq.me" },
-#     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-#     { title: "SmdCn", href: "http://blog.smdcn.net" },
-#     { title: "JiyinYiyong", href: "http://tiye.me/" },
-#     { title: "DHong Say", href: "http://dhong.co" },
-#     { title: "尹峰以为", href: "http://ingf.github.io/" },
-#   ]
+toc:
+  no_toc_section_class:
+    - no_toc_section
+    - exclude
+    - your_custom_skip_class_name
+  no_toc_section_class: exclude # default: no_toc_section
