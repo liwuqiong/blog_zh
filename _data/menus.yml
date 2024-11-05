@@ -1,17 +1,17 @@
 - title: 首页
-  url: {{ site.baseurl }}/
+  url: /
   external: false
 
 - title: 归档
-  url: {{ site.baseurl }}/archive/
+  url: /archive/
   external: false
 
 - title: 标签
-  url: {{ site.baseurl }}/tags/
+  url: /tags/
   external: false # set true if you using external link, see below
 
 - title: 关于
-  url: {{ site.baseurl }}/about/
+  url: /about/
   external: false # set true if you using external link, see below
 
 
