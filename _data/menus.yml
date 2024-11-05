@@ -1,17 +1,17 @@
 - title: 首页
-  url: /
+  url: /blog_zh
   external: false
 
 - title: 归档
-  url: archive/
+  url: /blog_zh/archive/
   external: false
 
 - title: 标签
-  url: tags/
+  url: /blog_zh/tags/
   external: false # set true if you using external link, see below
 
 - title: 关于
-  url: about/
+  url: /blog_zh/about/
   external: false # set true if you using external link, see below
 
 
