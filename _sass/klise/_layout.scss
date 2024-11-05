@@ -237,7 +237,7 @@
   }
 
   .post-item-date {
-    min-width: 96px;
+    min-width: 120px;
     color: $black;
     font-weight: 700;
     padding-right: 10px;
@@ -299,7 +299,8 @@
 
   .footer_copyright {
     font-size: $small-font-size - 2;
-    margin-top: 3px;
+    margin-top: 4px;
+    margin-bottom: 0.5px;
     display: block;
     color: $gray;
     opacity: 0.8;
