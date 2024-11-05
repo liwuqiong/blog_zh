@@ -6,33 +6,19 @@ excerpt: Sorted article by tags.
 ---
 
 <div class="archive-tags">
-  <a class="tag-item" href="#">all({{ site.posts.size }})</a>
+  <a class="tag-item" href="#">all</a>
   {%- for tag in site.tags -%} 
     {% capture name %}{{ tag | first }}{% endcapture %}
-    <a class="tag-item" href="#{{name}}">{{ name }}({{ site.tags[name].size }})</a> 
+    <a class="tag-item" href="#{{name}}">{{ name }}</a> 
   {%- endfor -%}
 </div>
-
-<style>  
-  .post-item-content {  
-    display: flex; /* 使用Flexbox布局 */  
-    align-items: center; /* 垂直居中 */  
-  }  
-    
-  .post-item-date {  
-    margin-right: 0.5em; /* 使用em单位设置日期和标题之间的间距 */  
-    /* 如果您不希望日期加粗或斜体，可以移除这些样式 */  
-    /* font-weight: bold; */  
-    /* font-style: italic; */  
-  }  
-</style>  
 
 {%- for tag in site.tags -%}
   {%- capture name -%}{{ tag | first }}{%- endcapture -%}
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.tags[name] -%}
     <article class="post-item" id="results-container">
-      <span class="post-item-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
       <h3 class="post-item-title">
         <a href="{{ post.url }}">{{ post.title | escape }}</a>
       </h3> 
