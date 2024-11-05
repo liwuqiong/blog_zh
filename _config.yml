@@ -24,7 +24,7 @@ author:
 
 # URL settings
 url: "https://liwuqiong.com" #
-baseurl: "/blog_zh"
+baseurl: ""
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
