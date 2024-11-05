@@ -190,8 +190,8 @@
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -221,6 +221,7 @@
   font-weight: 700;
   margin-bottom: 5px;
   color: $black;
+  width: $wide-size;  
 }
 
 // List of posts
@@ -254,11 +255,14 @@
     letter-spacing: 0.1px;
 
     a {
+      // color: #6e40b7;
       color: $text-base-color;
+
 
       &:hover,
       &focus {
         color: $black;
+        text-decoration:underline;
       }
     }
   }
@@ -276,7 +280,7 @@
   span.footer_item {
     color: $black;
     opacity: 0.8;
-    font-weight: $bold-weight;
+    font-weight: $normal-weight;
     font-size: $small-font-size;
   }
   a.footer_item {
@@ -293,7 +297,7 @@
   }
 
   .footer_copyright {
-    font-size: $small-font-size - 1;
+    font-size: $small-font-size - 2;
     margin-top: 3px;
     display: block;
     color: $gray;

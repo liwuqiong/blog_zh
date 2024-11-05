@@ -8,8 +8,8 @@
 
 // Post title
 .header {
-  margin-top: 7.8em;
-  margin-bottom: 3em;
+  margin-top: 4em;
+  margin-bottom: 2em;
 
   .tags {
     margin-left: 3px;
@@ -70,6 +70,7 @@
 // Post content
 .page-content {
   padding-top: 8px;
+  // width: $wide-size;  
 
   iframe {
     text-align: center;
@@ -101,6 +102,7 @@
 
     &:hover {
       color: $text-link-blue-active;
+      text-decoration: underline;
     }
 
     &:focus {
@@ -257,5 +259,41 @@
 }
 
 .post-updated-at {
-  font-family: "Ubuntu mono", "monospace";
+  font-family: "Source Han Serif CN","Ubuntu mono", "monospace";
 }
+
+
+
+// /* 初始导航栏样式 */  
+// .navbar {  
+//   // background-color: #333; /* 或者你想要的背景颜色 */  
+//   padding: 10px 20px;  
+//   color: white;  
+//   width: 100%;  
+//   position: relative; /* 初始位置 */  
+//   top: 0;  
+//   z-index: 1000; /* 确保导航栏在其他内容之上 */  
+//   box-sizing: border-box; /* 确保内边距和边框包含在宽度内 */  
+// }  
+
+// /* 固定位置的导航栏样式 */  
+// .navbar.fixed {  
+//   position: fixed;  
+//   top: 0;  
+//   left: 0;  
+//   right: 0;  
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 可选：添加阴影效果 */  
+// }  
+
+// /* 可能需要为菜单触发器调整样式 */  
+// .menu-trigger {  
+//   display: none; /* 在较大的屏幕上隐藏，使用媒体查询显示 */  
+// }  
+
+// /* 响应式设计，例如使用媒体查询 */  
+// @media (max-width: 768px) {  
+//   .menu-trigger {  
+//       display: block; /* 在较小的屏幕上显示 */  
+//   }  
+//   /* 其他响应式样式 */  
+// }

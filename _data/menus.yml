@@ -1,14 +1,20 @@
-- title: home
+- title: 首页
   url: /
   external: false
 
-- title: archive
+- title: 归档
   url: /archive/
   external: false
 
-- title: about
+- title: 标签
+  url: /tags/
+  external: false # set true if you using external link, see below
+
+- title: 关于
   url: /about/
   external: false # set true if you using external link, see below
+
+
 
 # Example:
 # - title: github
