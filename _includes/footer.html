@@ -2,15 +2,22 @@
   <!-- <a class="footer_item" href="/thanks">ack.</a>
   <a class="footer_item" href="javascript::void(0)">resume</a>
   <a class="footer_item" href="/feed.xml">rss</a> -->
-  <span class="footer_item">&copy; 2017-{{ site.time | date: "%Y" }} | <a href="https://liwuqiong.com">Li Wuqiong</a></span>
+  <span class="footer_item">&copy; 2016-{{ site.time | date: "%Y" }} | <a href="https://liwuqiong.com">Li Wuqiong</a></span>
 
+  {% if page.url == '/' %}
+  <small class="footer_copyright">
+    <p>Last updated on {% for post in site.posts %}{% if forloop.first %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}{% endfor %}</p>
+  </small>
+  {% endif %}
 
-  <!-- <small class="footer_copyright">
-    <p>Last updated on {% for post in site.posts reversed %}{% if forloop.first %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}{% endfor %}</p>
+<!-- 
+<script defer src="https://busuanzi.9420.ltd/js"></script>
 
-  </small> -->
+本文总阅读量 <span id="busuanzi_page_pv"></span> 次
+本文总访客量 <span id="busuanzi_page_uv"></span> 人
+本站总访问量 <span id="busuanzi_site_pv"></span> 次
+本站总访客数 <span id="busuanzi_site_uv"></span> 人 -->
 
-  
   <!-- <small class="footer_copyright"> -->
     <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
     <!-- <a

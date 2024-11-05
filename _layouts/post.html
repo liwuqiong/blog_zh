@@ -28,6 +28,8 @@ layout: compress
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
+
+
   {% include navbar.html %}
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
@@ -65,6 +67,8 @@ layout: compress
         </header>
 
         <div class="page-content" itemprop="articleBody">
+          {% include toc.html html=content %}
+
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
           {% if page.tweet %}
           <p>Comments this article on 
@@ -74,6 +78,9 @@ layout: compress
         </div>
       </article>
     
+
+
+
       {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
     {% endif %}
@@ -88,7 +95,7 @@ layout: compress
     </main>
 
 
-
+    
     {% include footer.html %}
   </div>
 
@@ -109,7 +116,7 @@ layout: compress
     });  
 </script> -->
 
-% include toc.html html=content %
+
 
 </body>
 
