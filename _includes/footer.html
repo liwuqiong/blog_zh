@@ -49,21 +49,19 @@
 
 
 <script src="{{ site.baseurl }}/assets/js/main.js" defer="defer"></script>
-{%- if site.google_analytics -%}
-  <!-- Google tag (gtag.js) -->
-  <script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
 
-    gtag("config", "{{ site.google_analytics }}");
-  </script>
+{%- if site.google_analytics -%}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VQMQLZ3FZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3VQMQLZ3FZ');
+</script>
+  
 {%- endif -%}
 {%- if page.url == '/archive/' -%}
   <script src="{{ site.baseurl }}/assets/js/search.min.js"></script>
