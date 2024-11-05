@@ -3,7 +3,7 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">最新文章</h3>
+<h3 class="posts-item-note" aria-label="Recent Posts">最新文章</h3> 
 {%- for post in site.posts limit: site.number_of_posts -%}
 <article class="post-item">
   <span class="post-item-date">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -12,3 +12,7 @@ home: true
   </h4>
 </article>
 {%- endfor -%}
+
+
+<!-- <h3 class="posts-item-note" aria-label="Recent Posts">最新文章  
+  <a href="{{ site.baseurl }}/archive" class="all-posts-link" style="margin-left: 510px; font-style: italic; font-weight: 300;"> sell all</a> -->
