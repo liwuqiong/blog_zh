@@ -33,9 +33,16 @@ layout: compress
     <header class="header">
       <h1 class="header-title center" itemprop="headline">{{ page.title | escape }}</h1>
     </header>
+
     <main class="page-content" aria-label="Content">
       {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=4 h_max=4 %}
     </main>
+
+    {% if page.comments %}
+    <br>
+    {% include comments.html %}
+  {% endif %}
+
     {% include footer.html %}
   </div>
 </body>

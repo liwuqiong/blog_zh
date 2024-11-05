@@ -14,7 +14,7 @@ An entrepreneur, analyst/product manager, writer and indie hacker...
 
 All tags are nothing more than a kind of restriction. 
 
-I was and still am *an idiot*, which encourages me <u>keep learning and going</u>.
+I was and still am *an idiot*, which encourages me **keep learning and going**.
 
 
 
