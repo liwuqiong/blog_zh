@@ -19,10 +19,10 @@ author:
   twitter: twitter_username # twitter username
   facebook: facebook_username # facebook username
   email: your-email@email.com # email adress
-  avatar: {{ site.baseurl }}/assets/img/avatar.jpeg # change with your own avatar
+  avatar: https://liwuqiong.com/blog_zh/assets/img/avatar.jpeg # change with your own avatar
 
 # URL settings
-url: "https://liwuqiong.com/" #
+url: "https://liwuqiong.com" #
 baseurl: "/blog_zh"
 permalink: /:title/
 google_analytics: # leave it blank if not wish
