@@ -22,7 +22,7 @@ author:
   avatar: /assets/img/avatar.jpeg # change with your own avatar
 
 # URL settings
-url: "https://liwuqiong.com/" #
+url: "https://liwuqiong.com" #
 baseurl: "/blog_zh"
 permalink: /:title/
 google_analytics: # leave it blank if not wish
