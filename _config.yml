@@ -13,7 +13,7 @@ mode: light # default theme "dark" | "light"
 author:
   name: Wq # author name
   bio: >- # tell to the world
-    A record of journey of pursuing and building the path towards the real achievements and freedom. <a href="/about"> >> </a>
+    A record of journey of pursuing and building the path towards the real achievements and freedom. <a href="{{site.baseurl}}/about"> >> </a>
   username: username # general username
   github: github_username # github username
   twitter: twitter_username # twitter username

@@ -49,7 +49,7 @@
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '/assets/search.json',
+      json: '{{ site.baseurl }}/assets/search.json',
     });
   </script>
 {%- endif -%}
