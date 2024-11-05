@@ -64,24 +64,6 @@ layout: compress
           {% endif %}
         </header>
 
-        <div class="container">
-
-          <div class="table-of-contents">
-
-            <!-- {% include toc.html html=content %}
-          </div>
-          <div class="contents">
-            <article class="markdown-body">
-              <h2>Contents</h2>
-               <hr>
-               <br>
-              {{ content }}
-            </article>
-          </div>
-        </div> -->
-
-        <!-- {{ content | toc}} -->
-
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
           {% if page.tweet %}
