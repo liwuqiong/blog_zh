@@ -1,7 +1,8 @@
 ---
-title: 【读书笔记】Adolescence
+title: Adolescence
 subtitle: 
 tags: 
+- 笔记
 date: 2024-05-21
 layout: post
 header-style: text

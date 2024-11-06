@@ -2,8 +2,7 @@
 title: 世界文学的脉络
 subtitle: 
 tags:
-  - 文学
-  - 自我管理
+  - 写作
 date: 2023-11-25
 layout: post
 header-style: text

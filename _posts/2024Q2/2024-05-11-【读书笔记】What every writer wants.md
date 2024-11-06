@@ -1,8 +1,8 @@
 ---
-title: 【读书笔记】What every writer wants
+title: What every writer wants
 subtitle: 
 tags: 
-- 读书笔记
+- 笔记
 date: 2024-05-11
 layout: post
 header-style: text

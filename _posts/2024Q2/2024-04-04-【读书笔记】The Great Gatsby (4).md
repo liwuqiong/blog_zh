@@ -1,9 +1,8 @@
 ---
-title: 【读书笔记】The Great Gatsby (4)
+title: The Great Gatsby (4)
 subtitle: 
 tags: 
-- 读书笔记
-- 文学
+- 笔记
 date: 2024-04-04
 layout: post
 header-style: text

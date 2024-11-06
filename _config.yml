@@ -24,8 +24,8 @@ author:
 # URL settings
 url: "https://liwuqiong.com" #
 baseurl: "/blog_zh"
-permalink: /:title/
-google_analytics: # leave it blank if not wish
+permalink: /:year/:month/:title/
+google_analytics: G-3VQMQLZ3FZ # leave it blank if not wish
 fb_appid:
 
 # Collection setting

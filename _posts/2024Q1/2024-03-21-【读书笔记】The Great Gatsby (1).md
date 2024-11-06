@@ -2,8 +2,7 @@
 title: 【读书笔记】The Great Gatsby (1)
 subtitle: 
 tags: 
-- 读书笔记
-- 文学
+- 笔记
 date: 2024-03-21
 layout: post
 header-style: text

@@ -1,10 +1,8 @@
 ---
-title: 【读书笔记】ruanyifeng的早期博客文章
+title: ruanyifeng的早期博客文章
 subtitle: 
 tags: 
-- 读书笔记
-- 散文
-- 博客
+- 笔记
 date: 2024-04-18
 layout: post
 header-style: text

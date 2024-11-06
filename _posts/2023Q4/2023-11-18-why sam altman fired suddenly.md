@@ -2,8 +2,7 @@
 title: 为什么Sam Altman突然被董事会出局
 subtitle: 
 tags:
-  - 人工智能
-  - weibo
+  - Business
 date: 2023-11-18
 layout: post
 header-style: text

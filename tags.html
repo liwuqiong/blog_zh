@@ -7,7 +7,7 @@ comments: false
 ---
 
 <div class="archive-tags">
-  <a class="tag-item" href="#">all({{ site.posts.size }})</a>
+  <a class="tag-item" href="#">All({{ site.posts.size }})</a>
   {%- for tag in site.tags -%} 
     {% capture name %}{{ tag | first }}{% endcapture %}
     <a class="tag-item" href="#{{name}}">{{ name }}({{ site.tags[name].size }})</a> 

@@ -3,7 +3,6 @@ layout: post
 title: 时隔多年，再次开启个人自建博客的旅程
 tags: 
 - 随笔
-- 博客
 header-style: text
 ---
 时隔多年后，又重新开始了自建博客的旅程。
