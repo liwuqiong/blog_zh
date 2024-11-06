@@ -18,6 +18,10 @@
   url: "https://liwuqiong.com"
   external: false # set true if you using external link, see below
 
+# - title: test #可用来显示特定标签的内容
+#   url: "/blog_zh/test"
+#   external: false # set true if you using external link, see below
+
 # - title: 快语
 #   url: /blog_zh/kuaiyu/
 #   external: false
