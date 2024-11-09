@@ -1,15 +1,11 @@
 ---
-title: 特朗普2024当选影响几何：一份2016年预测全中的报告
+title: 特朗普2024当选的影响：一份2016年预测全中的报告
 subtitle: 
 tags: 
 - 时评
 date: 2024-11-08
 published: true
 ---
-⚠️upload failed, c⚠️upload failed, check dev console
-⚠️upload failed, check dev console
-heck dev console
-
 
 这份2016年的研究报告来自[人大国发院](http://nads.ruc.edu.cn/zkcg/zcjb/index.htm)，特朗普刚刚竞选获胜，全世界还在震惊于这么一个不靠谱的政治素人，在一路群嘲和不看好的跌跌撞撞中，竟然还真给他选上了。
 
@@ -17,7 +13,7 @@ heck dev console
 
 然而，这篇报告认为这个预计太过乐观。事实上，这是严重的战略误判。作者认为特朗普绝非善类，其政策核心是判断从克林顿到奥巴马这几任政府对中国让步太多损害了美国利益，进而一定会祭出贸易保护主义促使美国资本回流，对中国制造业实施精准打击，并在地缘上通过缓和与俄罗斯的关系来围堵中国。
 
-作者从特朗普最著名的竞选口号：“让美国再次伟大”、“美国优先”入手，分析得出中国才是这两个口号背后的潜台词，即中国过去几十年迅猛的发展势头，尤其是成为世界制造工厂、让美国制造业“空心化”，使美国失去了往日制造业强国的荣光。
+	作者从特朗普最著名的竞选口号：“让美国再次伟大”、“美国优先”入手，分析得出中国才是这两个口号背后的潜台词，即中国过去几十年迅猛的发展势头，尤其是成为世界制造工厂、让美国制造业“空心化”，使美国失去了往日制造业强国的荣光。
 
 而美国优先背后则是公开确认聚焦于美国人自己的经济利益，而非为了各种“政治正确”、“普世价值”的意识形态在国际上承担过多的经济负担和义务。这一项更是直接奠定了特朗普基本的执政哲学，不谈虚头巴脑的人文情怀、救世济民，只看丁卯分明的经济账。在这种哲学的指导下，美国对中国的基本政策势必将发生根本转变，先前的合作方式将被认为是“让步太多”、损害美国人自己的经济利益，转为促进资本回流、保护本国就业。
 
@@ -49,21 +45,28 @@ heck dev console
 
 此外，里面的分析思路、框架结构、行文风格、基于数据和材料的逻辑论证，非常值得学习。
 
-⚠️upload failed, check dev console
+
+附：报告部分截图
 
 
-
-![](be12243c777d3bc5fd7b68e7421c7fcb.png)
-![](202411/term_shell_prompt.png)
-![finding alternative on desktop1](term_shell_prompt.png)
-	
-![term_shell_prompt](2024Q4/term_shell_prompt.png)
-
-![](2024Q4/term_shell_prompt.png)
-
-![](202411/term_shell_prompt.png)
+![](screenshot-20241109-113640.png)
 
 
-![](202411/term_shell_prompt.png)
-![](202411/term_shell_prompt.png)
+![](screenshot-20241109-115303.png)
+
+![](screenshot-20241109-115323.png)
+
+![](screenshot-20241109-115335.png)
+
+![](screenshot-20241109-115347.png)
+
+![](screenshot-20241109-115356.png)
+
+![](screenshot-20241109-115457.png)
+
+![](screenshot-20241109-115437.png)
+
+![](screenshot-20241109-120423.png)
+
+![](screenshot-20241109-115636.png)
 
