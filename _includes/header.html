@@ -172,10 +172,24 @@
     <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
     
+  <!-- 使用谷歌里的宋体字体 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 
+
+<!-- 添加busuanzi代码，统计页面访问量数据 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<!-- 让Markdown文件的外部链接都以新标签页的方式打开 -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+      var links = document.querySelectorAll("a[href^='http']:not([href^='{{ site.baseurl }}'])");
+      links.forEach(function(link) {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer"); // 可选，增加安全性
+      });
+  });
+  </script>
 
 </head>
