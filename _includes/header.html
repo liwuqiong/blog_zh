@@ -181,7 +181,7 @@
 <!-- 添加busuanzi代码，统计页面访问量数据 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-<!-- 让Markdown文件的外部链接都以新标签页的方式打开 -->
+<!-- 让Markdown文件的外部链接都以新标签页的方式打开
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
       var links = document.querySelectorAll("a[href^='http']:not([href^='{{ site.baseurl }}'])");
@@ -190,6 +190,10 @@
           link.setAttribute("rel", "noopener noreferrer"); // 可选，增加安全性
       });
   });
-  </script>
+  </script> -->
+
+<!-- 外部链接用新标签页打开 -->
+<script src="/assets/js/externalLinksHandler.js"></script>
+
 
 </head>
