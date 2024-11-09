@@ -46,5 +46,18 @@ published: true
 
 此外，里面的分析思路、框架结构、行文风格、基于数据和材料的逻辑论证，非常值得学习。
 
-%% 附图片 %%
+
+![finding alternative on desktop1](202411/term_shell_prompt.png)
+
+![term_shell_prompt](2024Q4/term_shell_prompt.png)
+
+![](2024Q4/term_shell_prompt.png)
+
+![](202411/term_shell_prompt.png)
+
+
+obsidian://open?vault=_posts&file=202411%2Fterm_shell_prompt.png
+
+![](202411/term_shell_prompt.png)
+![](202411/term_shell_prompt.png)
 
