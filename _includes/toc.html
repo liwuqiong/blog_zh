@@ -146,6 +146,7 @@
             {% for i in (1..repeatCount) %}
                 {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
             {% endfor %}
+            <h4 class="post-item-title">OK</h4>
 
             {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
         {% else %}
@@ -181,6 +182,6 @@
     {% endif %}
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
 
-<br>
+<!-- <br> -->
 <hr>
 <br>
