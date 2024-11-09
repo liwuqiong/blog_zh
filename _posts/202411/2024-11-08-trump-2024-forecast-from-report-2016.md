@@ -6,6 +6,9 @@ tags:
 date: 2024-11-08
 published: true
 ---
+⚠️upload failed, c⚠️upload failed, check dev console
+⚠️upload failed, check dev console
+heck dev console
 
 
 这份2016年的研究报告来自[人大国发院](http://nads.ruc.edu.cn/zkcg/zcjb/index.htm)，特朗普刚刚竞选获胜，全世界还在震惊于这么一个不靠谱的政治素人，在一路群嘲和不看好的跌跌撞撞中，竟然还真给他选上了。
@@ -46,17 +49,20 @@ published: true
 
 此外，里面的分析思路、框架结构、行文风格、基于数据和材料的逻辑论证，非常值得学习。
 
+⚠️upload failed, check dev console
 
-![finding alternative on desktop1](202411/term_shell_prompt.png)
 
+
+![](be12243c777d3bc5fd7b68e7421c7fcb.png)
+![](202411/term_shell_prompt.png)
+![finding alternative on desktop1](term_shell_prompt.png)
+	
 ![term_shell_prompt](2024Q4/term_shell_prompt.png)
 
 ![](2024Q4/term_shell_prompt.png)
 
 ![](202411/term_shell_prompt.png)
 
-
-obsidian://open?vault=_posts&file=202411%2Fterm_shell_prompt.png
 
 ![](202411/term_shell_prompt.png)
 ![](202411/term_shell_prompt.png)
