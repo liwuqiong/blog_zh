@@ -146,7 +146,6 @@
             {% for i in (1..repeatCount) %}
                 {% capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{% endcapture %}
             {% endfor %}
-            <h4 class="post-item-title">OK</h4>
 
             {% capture jekyll_toc %}{{ jekyll_toc }}</li>{% endcapture %}
         {% else %}
@@ -166,6 +165,7 @@
     {% endfor %}
 
     {% if jekyll_toc != '' %}
+
         {% assign rootAttributes = '' %}
         {% if include.class and include.class != blank %}
             {% capture rootAttributes %} class="{{ include.class | split: '.' | join: ' ' }}"{% endcapture %}
@@ -179,7 +179,9 @@
             {% assign nodes = jekyll_toc | split: '>' %}
             {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %}
         {% endif %}
+        
     {% endif %}
+    
 {% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
 
 <!-- <br> -->
