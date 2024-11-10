@@ -1,7 +1,7 @@
 ---
 title: 川普当选的影响，其实2016年就看清楚了
-subtitle: 
-description: 这分分析报告，预测基本全中
+subtitle: 这份报告的预测，基本全中
+description: 中国将面临巨大挑战
 tags: 
 - 时评
 date: 2024-11-08
