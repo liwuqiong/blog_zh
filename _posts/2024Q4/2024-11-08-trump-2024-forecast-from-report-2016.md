@@ -3,7 +3,7 @@ title: 川普当选的影响，其实2016年就看清楚了
 subtitle: 这份报告的预测，基本全中
 description: 这份报告的预测，基本全中
 tags: 
-- 时评
+- 投资
 date: 2024-11-08
 published: true
 ---
