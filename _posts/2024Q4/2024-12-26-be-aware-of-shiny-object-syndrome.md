@@ -2,7 +2,7 @@
 title: 警惕Shiny Object Syndrome
 subtitle: 
 tags: 
-date: 2025-01-11
+date: 2024-12-26
 layout: post
 header-style: text
 ---
