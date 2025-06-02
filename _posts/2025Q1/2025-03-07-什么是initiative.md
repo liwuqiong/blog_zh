@@ -2,6 +2,7 @@
 title: 什么是initiative
 subtitle: 
 tags: 
+- 个人成长
 date: 2025-03-07
 layout: post
 header-style: text

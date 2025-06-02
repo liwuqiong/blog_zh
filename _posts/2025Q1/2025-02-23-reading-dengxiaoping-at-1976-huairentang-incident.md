@@ -2,6 +2,8 @@
 title: 读《邓小平在1976：怀仁堂事变》
 subtitle: 
 tags: 
+- 读书
+- 历史
 date: 2025-02-23
 layout: post
 header-style: text

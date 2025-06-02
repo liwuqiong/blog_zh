@@ -2,6 +2,8 @@
 title: 读《大语言模型》中文书
 subtitle: 
 tags: 
+- 读书
+- AI笔记
 date: 2025-02-25
 layout: post
 header-style: text

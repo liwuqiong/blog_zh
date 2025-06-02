@@ -2,6 +2,8 @@
 title: 读《国家为什么会失败》
 subtitle: 
 tags: 
+- 读书
+- 经济学
 date: 2025-02-15
 layout: post
 header-style: text

@@ -2,6 +2,8 @@
 title: DeepSeek引发的AI热潮
 subtitle: 
 tags: 
+- 商业随笔
+- 时评
 date: 2025-02-27
 layout: post
 header-style: text
