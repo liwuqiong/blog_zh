@@ -161,7 +161,7 @@ ol {
     position: relative;
     counter-increment: li;
     padding-left: 1.6em; // 补偿伪元素宽度
-    text-indent: -1.6em; // 首行文本向左回拉
+    // text-indent: -1.6em; // 首行文本向左回拉
 
     &::before {
       content: counter(li) ".";
