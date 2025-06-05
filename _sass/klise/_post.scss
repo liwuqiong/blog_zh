@@ -121,7 +121,7 @@
     margin: 0;
 
     li::before {
-      content: "\2022";
+      content: "•";
     }
 
     li input[type="checkbox"] {
