@@ -155,7 +155,7 @@ ul {
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: none;
   counter-reset: li;
   li {
     position: relative;
