@@ -161,9 +161,9 @@ ol {
     position: relative;
     counter-increment: li;
     &::before {
-      content: counter(li) "\2022";
+      content: counter(li) ".";
       display: inline-block;
-      width: 1em;
+      width: 1.5em;
       margin-right: 0.5em;
       margin-left: -1.6em;
       text-align: right;
