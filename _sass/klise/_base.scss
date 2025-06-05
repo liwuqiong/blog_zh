@@ -145,6 +145,7 @@ ul {
   }
   li::before {
     // content: "\FE63";
+    content: "•";
     display: inline-block;
     top: -1px;
     width: 1.2em;
