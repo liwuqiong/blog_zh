@@ -76,28 +76,3 @@
 
 {%- endif -%}
 
-
-
-<script>
-  
-document.addEventListener('DOMContentLoaded', function() {
-  // 只处理文章主体
-  const article = document.querySelector('.page-content, article, .post');
-  if (!article) return;
-
-  // 递归遍历所有文本节点
-  const walker = document.createTreeWalker(article, NodeFilter.SHOW_TEXT);
-  while (walker.nextNode()) {
-    const node = walker.currentNode;
-    if (node.textContent.includes('%%')) {
-      const span = document.createElement('span');
-      span.innerHTML = node.textContent.replace(
-        /%%\s*(.*?)\s*%%/g,
-        '<mark class="obsidian-comment">$1</mark>'
-      );
-      node.parentNode.replaceChild(span, node);
-    }
-  }
-});
-
-</script>
