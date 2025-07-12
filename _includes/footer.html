@@ -80,10 +80,13 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 替换 %%注释%% 为HTML标签
-  document.body.innerHTML = document.body.innerHTML.replace(
-    /%%(.*?)%%/g, 
-    '<span class="obsidian-comment">$1</span>'
-  );
+  // 替换范围为文章主体（避免替换导航栏等无关部分）
+  const article = document.querySelector('.post-content, article, .post');
+  if (article) {
+    article.innerHTML = article.innerHTML.replace(
+      /%%(.*?)%%/g, 
+      '<mark class="obsidian-comment">$1</mark>'
+    );
+  }
 });
 </script>
