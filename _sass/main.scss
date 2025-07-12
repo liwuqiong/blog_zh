@@ -117,4 +117,5 @@ $on-widescreen: 1152px;
 .obsidian-comment {
   color: #888; /* 灰色文本 */
   font-style: italic; /* 斜体 */
+  display: inline-block; /* 确保正确换行 */
 }
