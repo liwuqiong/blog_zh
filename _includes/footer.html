@@ -76,3 +76,13 @@
 
 {%- endif -%}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 查找所有包含%%的元素
+    const elements = document.querySelectorAll('p, li, blockquote');
+    
+    elements.forEach(element => {
+      element.innerHTML = element.innerHTML.replace(/%%(.*?)%%/g, '<span class="obsidian-comment">$1</span>');
+    });
+  });
+</script>
