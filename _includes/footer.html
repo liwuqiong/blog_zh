@@ -78,9 +78,12 @@
 
 
 
+<script>
 document.addEventListener('DOMContentLoaded', function() {
+  // 替换 %%注释%% 为HTML标签
   document.body.innerHTML = document.body.innerHTML.replace(
     /%%(.*?)%%/g, 
-    '<mark class="obsidian-comment">$1</mark>'
+    '<span class="obsidian-comment">$1</span>'
   );
 });
+</script>
