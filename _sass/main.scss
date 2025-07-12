@@ -112,3 +112,9 @@ $on-widescreen: 1152px;
   padding-left: 20px;    /* 为ul元素添加左内边距，以显示标记 */  
   margin: 0;             /* 移除ul元素的默认外边距 */  
 }  
+
+
+.obsidian-comment {
+  color: #888; /* 灰色文本 */
+  font-style: italic; /* 斜体 */
+}
