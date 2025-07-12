@@ -22,11 +22,18 @@ code {
 
 // Codeblock Theme
 pre.highlight, pre {
-  margin: 0 -27px;
+  // margin: 0 -27px;
+  // @include media-query($on-mobile) {
+  //   margin: 0 calc(51% - 51vw);
+  //   padding-left: 20px;
+  // }
+  margin: 1em 0;
+  padding: 10px 15px; // 左右使用正padding
   @include media-query($on-mobile) {
-    margin: 0 calc(51% - 51vw);
-    padding-left: 20px;
+    margin: 1em 0;
+    padding: 10px;
   }
+
   border: 1px solid rgba(128,128,128,0.1);
   background-color: #1a1b21;
   border-radius: 2px;
