@@ -78,3 +78,9 @@
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.innerHTML = document.body.innerHTML.replace(
+    /%%(.*?)%%/g, 
+    '<mark class="obsidian-comment">$1</mark>'
+  );
+});
