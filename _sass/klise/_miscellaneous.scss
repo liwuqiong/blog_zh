@@ -39,3 +39,17 @@
     position: absolute;
   }
 }
+
+
+/* Obsidian 风格注释 */
+.obsidian-comment,
+mark.obsidian-comment {
+  background-color: transparent;
+  color: #999 !important;
+  font-style: italic;
+  opacity: 0.7;
+  &::before, &::after {
+    content: "%%";
+    opacity: 0.5;
+  }
+}
