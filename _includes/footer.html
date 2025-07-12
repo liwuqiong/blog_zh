@@ -77,12 +77,20 @@
 {%- endif -%}
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // 查找所有包含%%的元素
-    const elements = document.querySelectorAll('p, li, blockquote');
-    
-    elements.forEach(element => {
-      element.innerHTML = element.innerHTML.replace(/%%(.*?)%%/g, '<span class="obsidian-comment">$1</span>');
-    });
+document.addEventListener('DOMContentLoaded', function() {
+  console.log("脚本已加载！"); // 检查是否执行
+  const elements = document.querySelectorAll('body *:not(script):not(style)');
+  console.log("找到的元素数量:", elements.length); // 检查是否选中元素
+  
+  let replacedCount = 0;
+  elements.forEach(element => {
+    const originalHTML = element.innerHTML;
+    const newHTML = originalHTML.replace(/%%(.+?)%%/gs, '<span class="obsidian-comment">$1</span>');
+    if (newHTML !== originalHTML) {
+      element.innerHTML = newHTML;
+      replacedCount++;
+    }
   });
+  console.log("成功替换的注释数量:", replacedCount); // 检查是否替换成功
+});
 </script>
