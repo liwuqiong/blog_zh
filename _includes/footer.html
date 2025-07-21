@@ -9,19 +9,24 @@
   <small class="footer_copyright">
     <p>Last updated on {% for post in site.posts %}{% if forloop.first %}{{ post.date | date: "%Y-%m-%d" }}{% endif %}{% endfor %}</p>
   </small>
+  {% else %}  
+  <small class="footer_copyright">
+</small>
   {% endif %}
 
-  {% if page.url == '/' %} 
+
+  <!-- {% if page.url == '/' %} 
   <small class="footer_copyright">
   <span id="busuanzi_container_site_pv">访问量 <span id="busuanzi_value_site_pv"></span> 次</span>
   <span id="busuanzi_container_site_uv">访客数 <span id="busuanzi_value_site_uv"></span> 人</span>
 </small>
   {% else %}  
   <small class="footer_copyright">
-  <span id="busuanzi_container_page_pv">阅读 <span id="busuanzi_value_page_pv"> </span> 次</span>
+  <span id="busuanzi_container_page_pv">阅读 <span id="busuanzi_value_page_pv"> </span> 次</span> -->
   <!-- <span id="busuanzi_container_page_uv">本文阅读人数<span id="busuanzi_value_page_uv"></span>人</span> -->
-</small>
-{% endif %}
+<!-- </small>
+{% endif %} -->
+
 
 <!-- 
 <script defer src="https://busuanzi.9420.ltd/js"></script>
